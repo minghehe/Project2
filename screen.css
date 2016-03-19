@@ -122,6 +122,38 @@ img {
     flex-basis: 45.454545454545%;
   }
 
+.flexbox-container {
+   /* position: static;*/
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background-color:#999999;
+    max-width:70%;
+  }
+
+  .flexbox-item1-1 {
+    margin-left: 0;
+    width: auto;
+    flex-basis: 40%;
+  }
+
+  .flexbox-item1-2 {
+    position: static;
+    width: auto;
+    flex-basis: 50%;
+  }
+
+.flexbox-item2-1 {
+    position: static;
+    width: auto;
+    flex-basis: 50%;
+  }
+  
+  .flexbox-item2-2 {
+    position: static;
+    width: auto;
+    flex-basis: 50%;
+  }
 }
 
 
