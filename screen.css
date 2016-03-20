@@ -121,7 +121,7 @@ img {
     width: auto;
     flex-basis: 45.454545454545%;
   }
-
+}
 .flexbox-container {
    /* position: static;*/
     display: flex;
@@ -131,16 +131,31 @@ img {
     max-width:70%;
   }
 
-  .flexbox-item1-1 {
-    margin-left: 0;
-    width: auto;
-    flex-basis: 40%;
+.flexbox-item1{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1.2em;
+    margin-bottom: 1.2em;
   }
 
-  .flexbox-item1-2 {
+.flexbox-item2:last-child{
+  margin-bottom: 0;
+}
+
+  .flexbox-item1-1 {
     position: static;
     width: auto;
     flex-basis: 50%;
+    order: 2;
+  }
+
+  .flexbox-item1-2 {
+    margin-left: 0;
+    width: auto;
+    flex-basis: 40%;
+    order: 1;
+    flex-shrink: 2;
+    flex-basis: auto;
   }
 
 .flexbox-item2-1 {
@@ -154,6 +169,15 @@ img {
     width: auto;
     flex-basis: 50%;
   }
+
+  @media all and (min-width: 700px) {
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 10px;
+    margin: 10px;
+    border: 3px solid red;
+}
 }
 
 
