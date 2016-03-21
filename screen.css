@@ -83,6 +83,7 @@ img {
     margin: 0 auto;
     max-width:90%;
     padding:3.125em;
+    min-width: 37.5em;
     }
 
 @media screen and (min-width: 700px) {
@@ -145,9 +146,7 @@ figcaption {
 .clearfix {
 *zoom: 1;
 }
-.page_two{
-   display: none;
-}
+
 .clearfix:before, .clearfix:after {
    content: " ";
    display: table;
