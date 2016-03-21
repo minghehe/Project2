@@ -95,6 +95,36 @@ img {
   }
 }
 
+/*Not sure how to make the text around the image*/
+/*@media all and (min-width: 25em) {
+	.container{
+		max-width:43.75em;
+	}
+	
+	.item-1-1{
+		display:flex;
+		float:left;
+		padding:0 0;
+		border:none;
+		max-width:95%;
+		margin-left:2%;
+		margin-right:2%;
+		height:auto;
+		padding-bottom:3.75em;
+	}
+	
+	.images{
+		display:flex;
+		float:left;
+		margin:0 0 1em 1em;
+	}
+	
+	.item-1-2{
+		float:left;
+		max-width:70%;
+		margin:0 0 0.625em 0.625em;
+	}
+}*/
 @media all and (min-width:30em) {
 
 .container{
