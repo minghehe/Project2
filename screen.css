@@ -86,7 +86,7 @@ img {
     min-width: 37.5em;
     }
 
-@media screen and (min-width: 700px) {
+/*@media screen and (min-width: 700px) { */
   figure {
     position: relative; /* Give figure a positioning context
                            to set up the position of figcaption
@@ -99,7 +99,7 @@ img {
     top: 0; /* Put figcaption at the very top... */
     left: 0; /* ...and very left of figure */
   }
-}
+
 
 figcaption {
     position: static;
