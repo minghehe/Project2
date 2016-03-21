@@ -83,78 +83,73 @@ img {
     margin: 0 auto;
     max-width:90%;
     padding:3.125em;
-    min-width: 37.5em;
+    min-width: 12.5em;
     }
 
-/*@media screen and (min-width: 700px) { */
-  figure {
-    position: relative; /* Give figure a positioning context
-                           to set up the position of figcaption
-                           below...*/
+@media all and (min-width: 1em) {
+  .container{
+  	padding:0em;
   }
- 
-  figcaption {
-    position: absolute; /* Position figcaption absolutely, -relative- to figure, above */
-    width: 45.454545454545%; /* Make the figcaption 5/11's of the page */
-    top: 0; /* Put figcaption at the very top... */
-    left: 0; /* ...and very left of figure */
+  [class*="item"]{
+	padding:0em;
   }
+}
 
+@media all and (min-width:30em) {
 
-figcaption {
-    position: static;
-    width: auto;
-    flex-basis: 45.454545454545%;
-  }
-  
-.item-1-1{
-    display: block;
-    padding: 0 0;
-    border: none;
-    width: 95%;
+.container{
+background-color:#999999;
+    margin: 0 auto;
+    max-width:95%;
+    padding:3.125em;
+}
+[class*="item"]{
+    padding:0.833em;
+    width:100%;
+}
+
+img {
+    max-width:80%;
+ }
+ }
+
+@media all and (min-width:42em) {
+
+.container {
+    max-width:43.75em;
+}
+
+.item-1-1 {
+    display:flex;
+    padding:0 0;
+    border:none;
+    max-width:95%;
     margin-left:2%;
-    margin-right: 2%;
-    height: auto;
-    padding-bottom: 3.75em;
- }
-.item-1-2{
-    float: center;
-    width: 40%;
-    min-width: 25em;
- }
+    margin-right:2%;
+    height:auto;
+    padding-bottom:3.75em;
+}
+
+.item-1-2 {
+    float:center;
+    width:40%;
+    max-width:25em;
+}
 
 .images{
-    float: right;
-    width: 55%;
-    padding-left: 2%
-    padding-right: 3%;
-    min-width: 12.5em;
- }
-
+   float:right;
+   display:flex;
+   max-width:55%;
+   padding-left:2%
+   padding-right:3%;
+  }
 .item2{
-    display: block;
- }
-
+   display: block;
+  }
 .item2 > div {
-    display: block;
-    float: left;
-    width: 30%;
-    min-width: 21.875em;
-    padding-left: 3.125em;
- }
-
-.clearfix {
-*zoom: 1;
+   display:flex;
+   float:left;
+   max-width:30%;
+   padding-left:3.125em;
+  }
 }
-
-.clearfix:before, .clearfix:after {
-   content: " ";
-   display: table;
-}
-.clearfix:after {
-   clear: both;
-}
-
-
-
-
