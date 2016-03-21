@@ -76,7 +76,6 @@ img {
 	display:block;
 	max-width:100%;
 	border-radius: 50%;
-	padding:
 }
 
 .container {
@@ -85,100 +84,78 @@ img {
     max-width:90%;
     padding:3.125em;
     }
-/*[class*="item"]{
-    padding: 3.125em;
-    width: 100%;
-    }
-*/
+
 @media screen and (min-width: 700px) {
   figure {
     position: relative; /* Give figure a positioning context
                            to set up the position of figcaption
                            below...*/
   }
-  .images {
-     margin-left: 45.454545454545%; /* Push img out of figcaptions's way */
-     width: 54.545454545454%; /* Make the image 6/11's of the page */
-  }
+ 
   figcaption {
     position: absolute; /* Position figcaption absolutely, -relative- to figure, above */
     width: 45.454545454545%; /* Make the figcaption 5/11's of the page */
     top: 0; /* Put figcaption at the very top... */
     left: 0; /* ...and very left of figure */
   }
+}
 
- .flexbox figure {
-    position: static;
-    display: flex;
-  }
-  .flexbox .images {
-    margin-left: 0;
-    width: auto;
-    flex-basis: 54.545454545454%;
-  }
-  .flexbox figcaption {
+figcaption {
     position: static;
     width: auto;
     flex-basis: 45.454545454545%;
   }
-}
-.flexbox-container {
-   /* position: static;*/
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    background-color:#999999;
-    max-width:70%;
-  }
-
-.flexbox-item1{
-    display: flex;
-    flex-flow: row wrap;
-    margin: 1.2em;
-    margin-bottom: 1.2em;
-  }
-
-.flexbox-item2:last-child{
-  margin-bottom: 0;
-}
-
-  .flexbox-item1-1 {
-    position: static;
-    width: auto;
-    flex-basis: 50%;
-    order: 2;
-  }
-
-  .flexbox-item1-2 {
-    margin-left: 0;
-    width: auto;
-    flex-basis: 40%;
-    order: 1;
-    flex-shrink: 2;
-    flex-basis: auto;
-  }
-
-.flexbox-item2-1 {
-    position: static;
-    width: auto;
-    flex-basis: 50%;
-  }
   
-  .flexbox-item2-2 {
-    position: static;
-    width: auto;
-    flex-basis: 50%;
-  }
+.item-1-1{
+    display: block;
+    padding: 0 0;
+    border: none;
+    width: 95%;
+    margin-left:2%;
+    margin-right: 2%;
+    height: auto;
+    padding-bottom: 3.75em;
+ }
+.item-1-2{
+    float: center;
+    width: 40%;
+    min-width: 25em;
+ }
 
-  @media all and (min-width: 700px) {
-.floating-box {
+.images{
+    float: right;
+    width: 55%;
+    padding-left: 2%
+    padding-right: 3%;
+    min-width: 12.5em;
+ }
+
+.item2{
+    display: block;
+ }
+
+.item2 > div {
+    display: block;
     float: left;
-    width: 150px;
-    height: 10px;
-    margin: 10px;
-    border: 3px solid red;
+    width: 30%;
+    min-width: 21.875em;
+    padding-left: 3.125em;
+ }
+
+.clearfix {
+*zoom: 1;
 }
+.page_two{
+   display: none;
 }
+.clearfix:before, .clearfix:after {
+   content: " ";
+   display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+
 
 
 
