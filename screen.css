@@ -54,7 +54,7 @@ table {
 */
 body{
   background-color: white;
-  font-family:Lucida Handwriting, Sans-Serif;
+  font-family:"Lucida Handwriting", Sans-Serif;
   font-size: 1.25em; /* 20px/16px = 1.25 */
   line-height: 1.25em; /* 25px / 20px */
   padding-top: 1.25em; /* 25px / 20px */
@@ -65,7 +65,7 @@ body{
 }
 
 h2{
-  font-family: Lucida Calligraphy;
+  font-family:"Lucida Calligraphy";
   font-size: 1.728em; /* 31.104px / 18px */
   line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
   padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
