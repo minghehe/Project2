@@ -255,3 +255,27 @@ img {
 .lineHight4{
 	height: 40px;
 }
+.oneLine{
+	float: left;
+	max-width: 449px;
+	height: 18px;
+	padding: 4px 18px 5px 18px;
+	font-size: 0.728em
+}
+.oneLine1{
+	float: left;
+	max-width: 249px;
+	height: 18px;
+	text-align: right;
+}
+.oneLine2{
+	float: left;
+	max-width: 599px;
+	height: 18px;
+}
+.oneLine3{
+	float: left;
+	max-width: 99px;
+	height: 18px;
+	text-align: right;
+}
