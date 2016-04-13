@@ -279,3 +279,16 @@ img {
 	height: 18px;
 	text-align: right;
 }
+.oneOfThree,.twoOfThree,.threeOfThree{
+	float: left;
+	height: 20px;
+}
+.oneOfThree,.threeOfThree{
+	max-width: 250px;
+}
+.twoOfThree{
+	max-width: 599px;
+}
+.threeOfThree{
+	text-align: right;
+}
