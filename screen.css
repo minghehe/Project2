@@ -61,6 +61,16 @@ body{
   padding-right: 0.600em; /* half the 5:6 ratio */
   text-size-adjust: 100%;
   margin: 0 auto;
+  background-color:#ffb84d;
+}
+
+h1{
+	font-family:Rockwell;
+	font-size:2.6666666666666667em;  /*30px/18px */
+	line-height:1.6666666666666667em; /*25.92*2/31.104*/
+	padding-top:0.8333333333333334em; /*25.92px/31.104 */
+	padding-bottom:0.6666666666666667em; /* 25.92*2/31.104 */
+	text-align:center;
 }
 
 h2{
