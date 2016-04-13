@@ -219,3 +219,14 @@ img {
    padding-left:3.125em;
   }
 }
+
+.box,.boxBig{
+	max-width: 700px;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	background-color: rgba(255,255,255,0.5);
+}
+.boxBig{
+	max-width: 1100px;
