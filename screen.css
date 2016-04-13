@@ -82,11 +82,11 @@ h2{
 }
 
 ul {
-		max-width: 570px;
-		padding: 15px;
-		margin: 0px auto 60px auto;
-		border-top: 2px solid #000;
-		border-bottom: 1px solid #000;
+		max-width: 35.625em;
+		padding: 0.9375em;
+		margin: 0em auto 3.75em auto;
+		border-top: 0.125em solid #000;
+		border-bottom: 0.0625em solid #000;
 		text-align: center;
   }
 
@@ -99,13 +99,13 @@ a {
 		color: #000000;
 		text-transform: uppercase;
 		text-decoration: none;
-		padding: 4px 18px 5px 18px;
+		padding: 0.25em 1.125em 0.3125em 1.125em;
   }
 			
 a:hover, a.on {
 		color: #cc3333;
 		background-color: #ffb84d;
-		padding: 4px 18px 5px 18px;
+		padding: 0.25em 1.125em 0.3125em 1.125em;
 	}
 img {
 	display:block;
@@ -221,27 +221,27 @@ img {
 }
 
 .box,.boxBig{
-	max-width: 700px;
+	max-width: 43.75em;
 	margin: auto;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 50px;
+	padding-left: 3.125em;
+	padding-right: 3.125em;
+	padding-bottom: 3.125em;
 	background-color: rgba(255,255,255,0.5);
 }
 .boxBig{
-	max-width: 1100px;
+	max-width: 68.75em;
 }
 
 .line{
-	max-width: 699px;
+	max-width: 43.6875em;
 }
 .lineB{
-	max-width: 1100px;
+	max-width: 68.75em;
 }
 .lineHight{
-	height: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	height: 1.875em;
+	padding-top: 0.625em;
+	padding-bottom: 0.625em;
 }
 
 .lineHight2{
@@ -249,45 +249,45 @@ img {
 }
 
 .lineHight3{
-	height: 60px;
+	height: 1.25em;
 }
 
 .lineHight4{
-	height: 40px;
+	height: 2.5em;
 }
 .oneLine{
 	float: left;
-	max-width: 449px;
-	height: 18px;
-	padding: 4px 18px 5px 18px;
+	max-width: 28.0625em;
+	height: 1.125em;
+	padding: 0.25em 1.125em 0.3125em 1.125em;
 	font-size: 0.728em
 }
 .oneLine1{
 	float: left;
-	max-width: 249px;
-	height: 18px;
+	max-width: 15.5625em;
+	height: 1.125em;
 	text-align: right;
 }
 .oneLine2{
 	float: left;
-	max-width: 599px;
-	height: 18px;
+	max-width: 37.4375em;
+	height: 1.125em;
 }
 .oneLine3{
 	float: left;
-	max-width: 99px;
-	height: 18px;
+	max-width: 6.1875em;
+	height: 1.125em;
 	text-align: right;
 }
 .oneOfThree,.twoOfThree,.threeOfThree{
 	float: left;
-	height: 20px;
+	height: 1.25em;
 }
 .oneOfThree,.threeOfThree{
-	max-width: 250px;
+	max-width: 15.625em;
 }
 .twoOfThree{
-	max-width: 599px;
+	max-width: 37.4375em;
 }
 .threeOfThree{
 	text-align: right;
@@ -298,7 +298,7 @@ img {
 .td1{
 font-style:italic;
 font-family:"Century Gothic", Serif;
-font-size: 16px;
+font-size: 1em;
 color: #999;
 font-weight: normal;
 }
@@ -308,13 +308,13 @@ font-style:italic;
 font-size: 1em
 } 
 h4{
-max-width:600px;
+max-width:37.5em;
 float: right;
 }
 
 h4 td{
 font-style:italic;
-font-size: 16px;
+font-size: 1em;
 color: #999;
 font-weight: normal;
 float:right;
