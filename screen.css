@@ -230,3 +230,28 @@ img {
 }
 .boxBig{
 	max-width: 1100px;
+}
+
+.line{
+	max-width: 699px;
+}
+.lineB{
+	max-width: 1100px;
+}
+.lineHight{
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lineHight2{
+	height: 20px;
+}
+
+.lineHight3{
+	height: 60px;
+}
+
+.lineHight4{
+	height: 40px;
+}
