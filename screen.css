@@ -89,19 +89,29 @@ ul {
 		border-bottom: 0.0625em solid #000;
 		text-align: center;
   }
-
+.skills{
+	text-align:left;
+	border:none;
+}
 li {
 		display: inline;
 		margin: 2px 3px;
 }
-
+.menu{
+	display:inline;
+}
 a {
 		color: #000000;
 		text-transform: uppercase;
 		text-decoration: none;
 		padding: 0.25em 1.125em 0.3125em 1.125em;
   }
-			
+.menuA{
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.25em 1.125em 0.3125em 1.125em;
+}			
 a:hover, a.on {
 		color: #cc3333;
 		background-color: #ffb84d;
