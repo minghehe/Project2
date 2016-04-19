@@ -278,49 +278,7 @@ img {
 }
 .oneLine{
 	float: left;
-	max-width: 28.0625em;
-	height: 1.125em;
-	/*padding: 0.25em 1.125em 0.3125em 1.125em;*/
-	font-size: 1em
-}
-.oneLine1{
-	float: left;
-	width: 21.125em;
-	height: 1.125em;
 	text-align: right;
-}
-.oneLine2{
-	float: left;
-	max-width: 37.4375em;
-	height: 1.125em;
-}
-.oneLine3{
-	float: left;
-	max-width: 6.1875em;
-	height: 1.125em;
-	text-align: right;
-}
-.oneLine4{
-	float:left;
-	width:17.125em;
-	height:1.125em;
-	text-align:right;
-}
-.oneLine5{
-	float:left;
-	width:29.425em;
-	height:1.125em;
-	text-align:right;
-}
-.oneLine6{
-	float:left;
-	width:54.6875em;
-	height:1.125em;
-	text-align:right;
-	display:inline;
-}
-.oneLine7{
-	width:34.375em;
 }
 .box2{
 	height:10em;
