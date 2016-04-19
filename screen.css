@@ -46,7 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+hr{
+	margin-top: 20px;
+  	margin-bottom: 0px;
+  	border: 0;
+  	margin-right: -20px;
+  	margin-left: -20px;
+  	border-top: 1px solid #ccc;
+}
 /* Custom site styles */
 /*
   Using Minor Third Modular Scale:
