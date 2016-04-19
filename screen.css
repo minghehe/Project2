@@ -354,3 +354,27 @@ body:before, body:after,
 	display: table;
   	content: " ";
 }
+.nav,
+body:after,
+.row:after{
+	clear:both;
+}
+.col-1,.col-2,.col-3,.col-half{
+float: left;
+}
+
+.col-1{
+	width: 33.33333333%;
+}
+
+.col-2{
+	width: 66.66666666%;
+}
+
+.col-3{
+	width: 100%;
+}
+
+.col-half{
+	width: 50%;
+}
