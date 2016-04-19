@@ -93,6 +93,50 @@ ul {
 	display: block;
 	list-style-type: circle;
   }
+  
+  ul>li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.nav{
+	padding-left: 0;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0em;	
+	padding: 0 0;
+	width: auto;
+}
+
+.nav>li{
+	float: left;
+	position: relative;
+	display: block;
+	padding-bottom: 0;
+	font-size: 0.875em;
+	line-height: 1.43;
+	color: #fff;
+	margin-bottom: -1px;
+	box-sizing: border-box;
+}
+
+.nav>li>a{
+	display: block;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	color: #337ac6;
+	padding: 10px 15px;
+	border-radius: 0.250em 0.250em 0 0;
+	margin-right: 2px;
+}
+
+.active>a{
+	color: #555;
+	cursor: default;
+	border: 1px solid #ddd;
+	border-bottom-color: #fff;
+}
 .skills{
 	text-align:left;
 	border:none;
