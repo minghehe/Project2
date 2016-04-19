@@ -60,15 +60,13 @@ hr{
   http://www.modularscale.com/?18&px&1.2&web&text
 */
 body{
-  font-family:"Century Gothic", Sans-Serif;
+  font-family:"Helvetica Neue", Helvetica, WenQuanYi Micro Hei, sans-serif;
   font-size: 1.25em; /* 20px/16px = 1.25 */
   line-height: 1.25em; /* 25px / 20px */
-  padding-top: 1.25em; /* 25px / 20px */
-  padding-left: 1.200em; /* 5:6 ratio on baseline */
-  padding-right: 0.600em; /* half the 5:6 ratio */
   text-size-adjust: 100%;
-  margin: 0 auto;
-  background-color:#ffb84d;
+  margin: auto;
+  background-color:#fff;
+  color: #333;
 }
 
 h1{
