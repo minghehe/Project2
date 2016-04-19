@@ -240,7 +240,7 @@ img {
    float:right;
    display:flex;
    max-width:55%;
-   padding-left:2%
+   padding-left:2%;
    padding-right:3%;
   }
 .item2{
@@ -260,7 +260,7 @@ img {
 	padding-left: 3.125em;
 	padding-right: 3.125em;
 	padding-bottom: 3.125em;
-	background-color: #ffb84d;
+	background-color:#fff;
 }
 .boxBig{
 	max-width: 68.75em;
