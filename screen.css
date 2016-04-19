@@ -198,7 +198,7 @@ img {
 @media all and (min-width:30em) {
 
 .container{
-background-color:#ffb84d;
+    background-color:#fff;
     margin: 0 auto;
     max-width:95%;
     padding:3.125em;
