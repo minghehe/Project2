@@ -326,3 +326,25 @@ color: #999;
 font-weight: normal;
 float:right;
 }
+.heading{
+	position: relative;
+	display: block;
+	text-align: left;
+}
+
+.Subheading{
+	text-decoration: underline;
+}
+
+.add{
+	margin-bottom: 1.250em;
+	font-style: normal;
+	font-size: 0.875em;
+	line-height: 1.42857143;
+	text-align:center;
+}
+
+.row{
+	margin-left: -0.983em;
+	margin-right: -0.983em;
+}
