@@ -378,3 +378,13 @@ float: left;
 .col-half{
 	width: 50%;
 }
+@media(max-width: 48.125em){
+	.col-1,.col-2,.col-3,.col-half{
+		float: left;
+		position: relative;
+		min-height: 0.0625em;
+		padding-right: 0.983em;
+		padding-left: 0.983em;
+	}
+	
+}
