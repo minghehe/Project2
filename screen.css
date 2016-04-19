@@ -137,33 +137,9 @@ ul {
 	border: 1px solid #ddd;
 	border-bottom-color: #fff;
 }
-.skills{
-	text-align:left;
-	border:none;
-}
-li {
-		display: inline;
-		margin: 2px 3px;
-}
-.menu{
-	display:inline;
-}
-a {
-		color: #000000;
-		text-transform: uppercase;
-		text-decoration: none;
-		padding: 0.25em 1.125em 0.3125em 1.125em;
-  }
-.menuA{
-	color: #000000;
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 0.25em 1.125em 0.3125em 1.125em;
-}			
 a:hover, a.on {
 		color: #cc3333;
-		background-color: #ffb84d;
-		padding: 0.25em 1.125em 0.3125em 1.125em;
+		background-color: #fff;
 	}
 img {
 	display:block;
@@ -173,7 +149,7 @@ img {
 }
 
 .container {
-    background-color:#ffb84d;
+    background-color:#fff;
     margin: 0 auto;
     max-width:90%;
     padding:3.125em;
