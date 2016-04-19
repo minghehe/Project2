@@ -87,12 +87,11 @@ h2{
 }
 
 ul {
-		max-width: 35.625em;
-		padding: 0.9375em;
-		margin: 0em auto 3.75em auto;
-		border-top: 0.125em solid #000;
-		border-bottom: 0.0625em solid #000;
-		text-align: center;
+	padding: 0.9375em;
+	margin: 0em auto 3.75em auto;
+	text-align: left;
+	display: block;
+	list-style-type: circle;
   }
 .skills{
 	text-align:left;
