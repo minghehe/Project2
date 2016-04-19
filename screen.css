@@ -47,12 +47,12 @@ table {
 	border-spacing: 0;
 }
 hr{
-	margin-top: 20px;
+	margin-top: 1.25em;
   	margin-bottom: 0px;
   	border: 0;
-  	margin-right: -20px;
-  	margin-left: -20px;
-  	border-top: 1px solid #ccc;
+  	margin-right: -1.25em;
+  	margin-left: -1.25em;
+  	border-top: 0.0625em solid #ccc;
 }
 /* Custom site styles */
 /*
@@ -102,7 +102,7 @@ ul {
 .nav{
 	padding-left: 0;
 	list-style: none;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 0.0625em solid #ddd;
 	margin-bottom: 0em;	
 	padding: 0 0;
 	width: auto;
@@ -114,9 +114,9 @@ ul {
 	display: block;
 	padding-bottom: 0;
 	font-size: 0.875em;
-	line-height: 1.43;
+	line-height: 1.43em;
 	color: #fff;
-	margin-bottom: -1px;
+	margin-bottom: -0.0625em;
 	box-sizing: border-box;
 }
 
@@ -126,15 +126,15 @@ ul {
 	text-align: center;
 	text-decoration: none;
 	color: #337ac6;
-	padding: 10px 15px;
+	padding: 0.625em 0.9375em;
 	border-radius: 0.250em 0.250em 0 0;
-	margin-right: 2px;
+	margin-right: 0.125em;
 }
 
 .active>a{
 	color: #555;
 	cursor: default;
-	border: 1px solid #ddd;
+	border: 0.0625em solid #ddd;
 	border-bottom-color: #fff;
 }
 a:hover, a.on {
