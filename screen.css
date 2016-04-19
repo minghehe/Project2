@@ -348,3 +348,9 @@ float:right;
 	margin-left: -0.983em;
 	margin-right: -0.983em;
 }
+body:before, body:after,
+.nav, .nav>li,
+.row:before, .row:after{
+	display: table;
+  	content: " ";
+}
